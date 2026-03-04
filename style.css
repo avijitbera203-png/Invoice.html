@@ -1,0 +1,81 @@
+    *{
+        margin: 0; 
+        padding: 0; 
+        box-sizing: border-box;
+    }  
+    .invoice{
+      text-align: center;
+    }
+    body{
+        padding: 10px;
+    }
+        table{
+            border: 6px solid black;
+            width: 100%; 
+           border-collapse: collapse;
+        } 
+        th,td{
+            font-size: 16px; 
+            padding: 10px;
+              border: solid 3px black; 
+              text-transform: capitalize;
+        }  
+        td{
+            color: grey;
+        }
+        th{
+            text-align: left; 
+          
+        }  
+        h1{
+            font-size: 40px; 
+            font-weight: 900; 
+      
+         
+           color: black; 
+          
+
+        }
+        
+        ul,li{
+            list-style-type: none;
+        } 
+        h2,h4{
+            color: black;
+        } 
+      .subtotal{
+   
+        color: black; 
+        font-size: 19px; 
+        font-weight: 900;
+        text-align: center;
+      } 
+      .price{
+        color: black; 
+        font-size: 1.3rem; 
+        font-weight: 800;
+      } 
+      .data{
+       text-align: center;
+      } 
+      .inside-table{
+        border: none; 
+        width: 100%;
+
+      } 
+      .grey{
+        color: grey;
+        border: none;
+         
+        text-align: right;
+      } 
+      .remove{
+        border: none;
+      } 
+      .container{
+        padding: 90px;
+      }
+      .header{
+        border: none;
+        font-size: 25px;
+      } 
